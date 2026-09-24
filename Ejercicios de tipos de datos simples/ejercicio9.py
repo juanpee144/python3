@@ -1,0 +1,5 @@
+cantidad = int (input ("Dime la cantidad que quieres invertir: "))
+intanual = int (input ("Cuál es el interés anual?: "))
+años = int (input ("Cuántos años quieres invertirlo?: "))
+capitalobtenido = cantidad + (cantidad * (intanual / 100) * años)
+print ("El capital obtenido sería: ", capitalobtenido) 

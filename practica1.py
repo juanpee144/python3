@@ -1,1 +1,6 @@
-print ("Hola")
+numero = int (input ("Introduce un número: "))
+letra = input ("Introduce una letra: ")
+print ("El resultado es:", numero*2)
+print (type(numero))
+print ("La letra introducida es:", letra)
+print (type(letra))
